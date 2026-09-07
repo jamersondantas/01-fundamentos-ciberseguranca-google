@@ -1,6 +1,8 @@
-# 01 - Fundamentos de Cibersegurança | Google Cybersecurity
+# [SOC Lab 01] Fundamentos de Cibersegurança - Google Certificate
 
-> **Status:** Concluído | **Objetivo:** Entender o papel do SOC Analyst e os pilares da segurança
+![Status](https://img.shields.io/badge/Status-Concluído-green) ![Focus](https://img.shields.io/badge/Focus-SOC%20L1-blue) ![Lab](https://img.shields.io/badge/Lab-Termux%20%7C%20TryHackMe%20%7C%20LetsDefend-orange)
+
+> Projeto prático do Curso 1 do Google Cybersecurity Certificate. Foco em entender a rotina de um SOC Analyst: triagem de alertas, análise de domínio e fundamentos de SIEM.
 
 ### 👤 Sobre mim
 Estudante de Cybersecurity com foco em Blue Team / SOC N1. Estudando 2h/dia pelo celular (Motorola Edge 70 Fusion) usando Termux como laboratório Linux. Objetivo: primeiro emprego em SOC.
@@ -45,11 +47,19 @@ Aprendizado: Descobri como ver data de criação do domínio, importante para de
 **Plataforma:** LetsDefend - SOC Analyst Learning Path
 **Módulo:** What is SOC?
 
-**Alerta praticado:** SOC001 - Exemplo
-- **Título do Alerta:** Suspicious Domain Detected
-- **Minha Análise:** Verifiquei o domínio no VirusTotal e no WHOIS. Domínio criado há 2 dias, parece phishing.
-- **Classificação:** True Positive
-- **Ação:** Bloquear domínio no firewall e reportar.
+### Alerta SOC001 - Suspicious Domain Detected
+
+**1. Triagem (Enrichment):**
+- WHOIS: domínio criado há 2 dias (2026-09-04)
+- VirusTotal: 5/90 vendors flagged como malicious
+- Entropia do domínio: Alta (parece DGA)
+
+**2. Veredito:** True Positive - Phishing
+
+**3. Ação (Playbook):**
+- [✅] Bloquear domínio no DNS Firewall
+- [✅] Isolar host que acessou
+- [✅] Criar regra no SIEM
 
 **O que aprendi:** Como funciona uma fila de alertas de um SOC real.
 
