@@ -35,6 +35,49 @@ Estudante de Cybersecurity com foco em **Blue Team / SOC N1**, em busca da prime
 Análise de um domínio suspeito para identificar possível phishing.
 
 **Comando executado no Termux:**
-```bash
-whois google.com
-# Objetivo: Ver data de criação para diferenciar domínio legítimo de domínio recém-criado de phishing
+`whois google.com
+Objetivo: Ver data de criação para diferenciar domínio legítimo de domínio recém-criado de phishing`
+
+O Que Eu Descobri:
+• Domínios legítimos como google.com têm data de criação antiga (1997) • Domínios de phishing geralmente têm poucos dias de vida. Essa checagem é o primeiro passo no enriquecimento de um alerta de SOC. 
+Evidência:
+![Investigação WHOIS no Termux](./evidencias/whois-termux.png)
+
+🔵 3. Laboratório Prático - LetsDefend (Simulação de SOC Real)
+Plataforma: LetsDefend - SOC Analyst Learning Path
+Módulo: What is SOC?
+
+Alerta Analisado: SOC001 - Suspicious Domain Detected
+
+1. Triagem e Enriquecimento (Enrichment):
+• Verifiquei o domínio no WHOIS: Criado há 2 dias • Verifiquei no VirusTotal: 5/90 engines detectaram como malicioso • Contexto: Domínio com nome parecido com marca famosa (typosquatting) 
+2. Veredito: True Positive - Tentativa de Phishing
+
+3. Ação Recomendada (Seguindo o Playbook L1):
+• [ ] Bloquear domínio no Firewall / DNS Filter • [ ] Isolar o host que tentou acessar o domínio • [ ] Escalar para o time L2 com todas as evidências anexadas 
+O que aprendi: Como funciona uma fila de alertas de um SOC real e a importância de documentar tudo.
+
+🐧 4. Meu Lab Linux - Comandos no Termux
+Comandos que pratiquei e valido para rotina de SOC:
+# Investigação de Domínio e Rede
+whois dominio-suspeito.com
+nslookup dominio-suspeito.com
+ping -c 4 8.8.8.8
+ip a
+
+# Navegação Essencial no Linux
+pwd
+ls -la
+cat arquivo.log
+whois --help
+
+🛠️ Ferramentas Utilizadas
+Termux Linux WHOIS VirusTotal LetsDefend TryHackMe Google Chronicle (Teoria)
+🎯 Próximos Passos 
+• [ ] Curso 2 do Google: Playbooks, SIEM e Gestão de Incidentes 
+• [ ] Concluir o path SOC Level 1 do TryHackMe 
+• [ ] Aprender KQL para Microsoft Sentinel 
+📜 Certificação
+[https://www.coursera.org/account/accomplishments/verify/DJGJW94CB0P9?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse]
+
+Feito por Jamerson Dantas - Futuro SOC Analyst L1
