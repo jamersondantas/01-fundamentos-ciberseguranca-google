@@ -27,8 +27,8 @@ Estudante de Cybersecurity com foco em Blue Team / SOC N1. Estudando 2h/dia pelo
 
 **Plataforma:** TryHackMe - Path: Pre-Security
 **Salas feitas:**
-- [ ] Introduction to Cybersecurity
-- [ ] Principles of Security (CIA Triad)
+- [✅] Introduction to Cybersecurity
+- [✅] Principles of Security (CIA Triad)
 
 **O que eu fiz:**
 Usei o comando `whois` no Termux para investigar quem é dono de um domínio suspeito.
