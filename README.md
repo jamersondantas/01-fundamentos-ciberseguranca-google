@@ -35,8 +35,9 @@ Estudante de Cybersecurity com foco em **Blue Team / SOC N1**, em busca da prime
 Análise de um domínio suspeito para identificar possível phishing.
 
 **Comando executado no Termux:**
-`whois google.com
-Objetivo: Ver data de criação para diferenciar domínio legítimo de domínio recém-criado de phishing`
+
+`whois google.com`
+Objetivo: Ver data de criação para diferenciar domínio legítimo de domínio recém-criado de phishing
 
 O Que Eu Descobri:
 • Domínios legítimos como google.com têm data de criação antiga (1997) • Domínios de phishing geralmente têm poucos dias de vida. Essa checagem é o primeiro passo no enriquecimento de um alerta de SOC. 
@@ -60,18 +61,16 @@ O que aprendi: Como funciona uma fila de alertas de um SOC real e a importância
 🐧 4. Meu Lab Linux - Comandos no Termux
 Comandos que pratiquei e valido para rotina de SOC:
 # Investigação de Domínio e Rede
-```
-whois google.com 
+`whois google.com 
 nslookup google.com
 ping -c 4 8.8.8.8
-ip a
-```
+ip a`
 
 # Navegação Essencial no Linux
-pwd
+`pwd
 ls -la
 cat arquivo.log
-whois --help
+whois --help`
 
 🛠️ Ferramentas Utilizadas
 Termux Linux WHOIS VirusTotal LetsDefend TryHackMe Google Chronicle (Teoria)
