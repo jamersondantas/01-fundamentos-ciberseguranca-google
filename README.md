@@ -69,18 +69,6 @@ Aprendizado: Descobri como ver data de criação do domínio, importante para de
 
 Comandos que pratiquei nesse módulo:
 
-```bash
-# Ver informações de um domínio
-whois example.com
-
-# Ver meu IP e conexão
-ifconfig
-ping 8.8.8.8
-
-# Navegar no Linux
-pwd
-ls -la
-cat arquivo.txt
-
-# Ajuda de qualquer comando
-whois --help
+ip a  # ver interfaces
+ping -c 4 8.8.8.8
+whois -h whois.registro.br exemplo.com.br
