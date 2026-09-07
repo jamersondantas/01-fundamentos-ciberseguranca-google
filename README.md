@@ -36,7 +36,7 @@ Comando usado: `whois google.com`
 Aprendizado: Descobri como ver data de criação do domínio, importante para detectar domínios de phishing recém-criados.
 
 **Evidência:**
-[Coloque aqui um print do seu Termux - no GitHub app clica em Add file > Upload files]
+https://github.com/jamersondantas/01-fundamentos-ciberseguranca-google/blob/main/Screenshot_20260906-232942_Termux.png
 
 ---
 
