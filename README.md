@@ -13,7 +13,7 @@ Estudante de Cybersecurity com foco em **Blue Team / SOC N1**, em busca da prime
 
 **Meu Setup de Estudos:** Motorola Edge 70 Fusion + Termux + GitHub Mobile + TryHackMe + LetsDefend
 
-**Links:** [LinkedIn](https://linkedin.com/in/SEU-LINK-AQUI) | [TryHackMe](https://tryhackme.com/p/SEU-USER-AQUI) | [LetsDefend](https://app.letsdefend.io/user/SEU-USER-AQUI)
+**Links:** [LinkedIn](https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav) | [TryHackMe](https://tryhackme.com/p/jamersondantasdossantos) | [LetsDefend](https://app.letsdefend.io/user/Jammex)
 
 ---
 ### 📚 1. O Que Aprendi e Como Apliquei
