@@ -41,7 +41,7 @@ Objetivo: Ver data de criação para diferenciar domínio legítimo de domínio 
 O Que Eu Descobri:
 • Domínios legítimos como google.com têm data de criação antiga (1997) • Domínios de phishing geralmente têm poucos dias de vida. Essa checagem é o primeiro passo no enriquecimento de um alerta de SOC. 
 Evidência:
-![Investigação WHOIS no Termux](evidencias/whois-termux.png)
+![Investigação WHOIS no Termux](./evidencias/whois-termux.png)
 
 🔵 3. Laboratório Prático - LetsDefend (Simulação de SOC Real)
 Plataforma: LetsDefend - SOC Analyst Learning Path
