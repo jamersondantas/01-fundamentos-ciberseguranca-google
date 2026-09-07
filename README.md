@@ -65,14 +65,16 @@ Comandos que pratiquei e valido para rotina de SOC:
 whois google.com 
 nslookup google.com
 ping -c 4 8.8.8.8
-ip a`
+ip a
+`
 
 # Navegação Essencial no Linux
 `
 pwd
 ls -la
 cat arquivo.log
-whois --help`
+whois --help
+`
 
 🛠️ Ferramentas Utilizadas
 Termux Linux WHOIS VirusTotal LetsDefend TryHackMe Google Chronicle (Teoria)
