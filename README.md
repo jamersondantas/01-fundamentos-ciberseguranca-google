@@ -1,6 +1,6 @@
 # 01 - Fundamentos de Cibersegurança | Google Cybersecurity
 
-> **Status:** Em andamento | **Objetivo:** Entender o papel do SOC Analyst e os pilares da segurança
+> **Status:** Concluído | **Objetivo:** Entender o papel do SOC Analyst e os pilares da segurança
 
 ### 👤 Sobre mim
 Estudante de Cybersecurity com foco em Blue Team / SOC N1. Estudando 2h/dia pelo celular (Motorola Edge 70 Fusion) usando Termux como laboratório Linux. Objetivo: primeiro emprego em SOC.
