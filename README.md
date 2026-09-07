@@ -1,4 +1,4 @@
-# [Lab 01] SOC Fundamentals - Google Cybersecurity Certificate
+## [Lab 01] SOC Fundamentals - Google Cybersecurity Certificate
 
 ![Status](https://img.shields.io/badge/Status-Concluído-success)
 ![Focus](https://img.shields.io/badge/Focus-SOC%20Analyst%20L1-blue)
