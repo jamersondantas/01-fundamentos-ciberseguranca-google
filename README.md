@@ -59,7 +59,7 @@ O que aprendi: Como funciona uma fila de alertas de um SOC real e a importância
 
 🐧 4. Meu Lab Linux - Comandos no Termux
 Comandos que pratiquei e valido para rotina de SOC:
-# Investigação de Domínio e Rede
+```# Investigação de Domínio e Rede
 whois dominio-suspeito.com
 nslookup dominio-suspeito.com
 ping -c 4 8.8.8.8
