@@ -36,7 +36,9 @@ Análise de um domínio suspeito para identificar possível phishing.
 
 **Comando executado no Termux:**
 
-`whois google.com`
+```
+whois google.com
+```
 Objetivo: Ver data de criação para diferenciar domínio legítimo de domínio recém-criado de phishing
 
 O Que Eu Descobri:
