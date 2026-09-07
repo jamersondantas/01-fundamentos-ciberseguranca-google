@@ -13,7 +13,7 @@ Estudante de Cybersecurity com foco em **Blue Team / SOC N1**, em busca da prime
 
 **Meu Setup de Estudos:** Motorola Edge 70 Fusion + Termux + GitHub Mobile + TryHackMe + LetsDefend
 
-**Links:** [LinkedIn](https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav) | [TryHackMe](https://tryhackme.com/p/jamersondantasdossantos) | [LetsDefend](https://app.letsdefend.io/user/Jammex)
+**Links:** [LinkedIn](https://www.linkedin.com/in/jamersondantas) | [TryHackMe](https://tryhackme.com/p/jamersondantas) | [Certificado](https://www.coursera.org/account/accomplishments/verify/DJGJW94CB0P9)
 
 ---
 ### 📚 1. O Que Aprendi e Como Apliquei
@@ -84,7 +84,5 @@ Termux Linux WHOIS VirusTotal LetsDefend TryHackMe Google Chronicle (Teoria)
 • [ ] Curso 2 do Google: Playbooks, SIEM e Gestão de Incidentes 
 • [ ] Concluir o path SOC Level 1 do TryHackMe 
 • [ ] Aprender KQL para Microsoft Sentinel 
-📜 Certificação
-[https://www.coursera.org/account/accomplishments/verify/DJGJW94CB0P9?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse]
 
 Feito por Jamerson Dantas - Futuro SOC Analyst L1
