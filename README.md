@@ -38,7 +38,7 @@ All labs executed on Motorola Edge 70 Fusion + Termux, demonstrating adaptabilit
 
 ### 🔗 Links
 - Certificate: [Google Cybersecurity - Course 1](https://lnkd.in/d3-93XbR)
-- LinkedIn Post with detailed walkthrough: [Add your LinkedIn post link here]
+- LinkedIn Post with detailed walkthrough: [https://lnkd.in/p/d7xB6ty3]
 
 ### ➡️ Next Steps
 - Course 2: Playbooks and SIEM
