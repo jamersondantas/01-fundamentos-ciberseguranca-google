@@ -27,4 +27,23 @@ Hands-on lab focused on Security Operations Center Level 1 (SOC L1) workflows. T
 - **Documentation:** Created incident playbook following NIST Framework
 
 **4. SIEM Simulation**
-- Simulated alert
+- Simulated alert flow in LetsDefend Security Operations Center
+- Practiced MTTR (Mean Time To Respond) awareness: 12m target
+
+### 🛠️ Stack & Tools
+`Linux (Termux)` `WHOIS` `VirusTotal` `LetsDefend` `TryHackMe` `SQL` `Networking` `NIST Cybersecurity Framework` `Incident Response`
+
+### 💡 Key Differentiator
+All labs executed on Motorola Edge 70 Fusion + Termux, demonstrating adaptability and resourcefulness in low-resource scenarios - a critical skill for SOC analysts in real-world environments.
+
+### 🔗 Links
+- Certificate: [Google Cybersecurity - Course 1](https://lnkd.in/d3-93XbR)
+- LinkedIn Post with detailed walkthrough: [Add your LinkedIn post link here]
+
+### ➡️ Next Steps
+- Course 2: Playbooks and SIEM
+- TryHackMe: SOC Level 1 Path
+- LetsDefend: SOC Analyst Learning Path
+
+---
+#BlueTeam #SOCAnalyst #CyberSecurity #SIEM #Linux #TryHackMe #LetsDefend #GoogleCybersecurity
