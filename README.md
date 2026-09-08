@@ -18,6 +18,7 @@ Hands-on lab focused on Security Operations Center Level 1 (SOC L1) workflows. T
 
 **2. Investigation & Enrichment**
 - **WHOIS Investigation (Termux - 100% mobile):** Validated domain registration, creation date, registrar reputation
+  ![WHOIS Termux](./images/whois-termux.png)
 - **VirusTotal Enrichment:** Cross-checked domain/IP reputation, detection rate, and related samples
 - **Linux Validation:** Used essential SOC commands: `whois`, `dig`, `nslookup`, `grep`, `cat`
 
