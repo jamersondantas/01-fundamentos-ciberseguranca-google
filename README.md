@@ -57,10 +57,10 @@ ping -c 4 8.8.8.8
 
 - **Verdict:** `True Positive` - Phishing Attempt
 - **Actions (L1 Playbook):**
-    - Block domain on Firewall / DNS Filter[x]
-    - Isolate host that attempted access[x]
-    - Add to blocklist / threat intel[x]
-    - Escalate to L2 with full evidence[x]
+    - [X]Block domain on Firewall / DNS Filter
+    - [X]Isolate host that attempted access
+    - [X]Add to blocklist / threat intel
+    - [X]Escalate to L2 with full evidence
 
 #### 4. SIEM & SOC Simulation
 - Simulated full alert lifecycle in LetsDefend SOC
