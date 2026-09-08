@@ -1,63 +1,42 @@
-# 01 - Google Cybersecurity Fundamentals - SOC L1 Hands-On Lab
-> Documented as a real SOC L1 case - 100% mobile lab (Motorola Edge 70 Fusion + Termux)
+# [Lab 01] SOC L1 Fundamentals - Google Cybersecurity Certificate
+
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+![Lab](https://img.shields.io/badge/Lab-SOC001%20Alert%20Triage-blue?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-100%25%20Mobile%20Termux-black?style=for-the-badge&logo=linux)
+![Focus](https://img.shields.io/badge/Focus-SOC%20L1%20%2F%20Blue%20Team-red?style=for-the-badge)
+
+> Documented as a real SOC L1 case - 100% executed on **Motorola Edge 70 Fusion + Termux**. Proving Blue Team operations don't require high-end hardware.
 
 **Author:** Jamerson Dantas | Aspiring SOC Analyst L1 | Pouso Alegre, MG - Brazil
 **Certificate:** Google Cybersecurity Certificate - Course 1/8 Completed
-**Lab:** LetsDefend SOC001 - Alert Triage Simulation
-
-### 📌 Executive Summary
-Hands-on lab focused on Security Operations Center Level 1 (SOC L1) workflows. This project simulates a real alert triage, investigation, and response cycle, proving that Blue Team studies can be performed without a high-end PC, using only a smartphone.
-
-### 🚨 SOC L1 Workflow Executed
-
-**Alert ID:** SOC001 - Suspicious Domain / Potential Phishing
-
-**1. Initial Triage**
-- Received alert from SIEM: suspicious domain detected
-- Collected IOC: suspicious domain
-- Prioritized alert based on severity and context
-
-**2. Investigation & Enrichment (100% Termux)**
-- **WHOIS Investigation:** Validated domain registration date, registrar, and ownership reputation
-- **DNS Investigation:** Used `dig` and `nslookup` to validate IP resolution and name servers
-- **Linux Validation:** Used essential SOC commands: `whois`, `dig`, `nslookup`, `ping`, `cat`, `grep`
-- **Context Enrichment:** Correlated domain age and registrar pattern with phishing indicators
-
-**3. Verdict & Action**
-- **Verdict:** True Positive - Suspicious/Malicious Domain Pattern
-- **Action:** Block domain/IP on perimeter, add to blocklist, create incident ticket
-- **Documentation:** Created incident playbook following NIST Cybersecurity Framework (Identify, Protect, Detect, Respond)
-
-**4. SIEM & SOC Simulation**
-- Simulated full alert lifecycle in LetsDefend Security Operations Center
-- Practiced MTTR (Mean Time To Respond) awareness: 12m target
-- Followed SOC L1 playbook: Triage > Investigate > Document > Escalate
-
-### 🛠️ Stack & Tools
-`Linux (Termux)` `WHOIS` `dig` `nslookup` `LetsDefend` `NIST Framework` `SIEM` `Incident Response` `Networking` `SQL` `Blue Team`
-
-### 💡 Key Differentiator
-All labs executed on Motorola Edge 70 Fusion + Termux, demonstrating adaptability and resourcefulness in low-resource scenarios - a critical skill for SOC analysts operating in constrained environments.
-
-### 📸 Evidence
-
-#### 1. Investigação WHOIS no Termux
-![Investigação WHOIS no Termux](./images/whois-termux.png)
-
-#### 2. Investigação DNS
-![dig e nslookup results](./images/dns-investigation.png)
-
-#### 3. Triagem no LetsDefend
-![Alert triage in LetsDefend](./images/letsdefend-soc001.png)
-
-### 🔗 Links
-- Certificate: [Google Cybersecurity - Course 1](https://lnkd.in/d3-93XbR)
-- LinkedIn: [https://www.linkedin.com/posts/jamerson-dantas-66358a191_github-jamersondantas01-fundamentos-ciberseguranca-google-activity-7502885691706630144-chN0?utm_source=share&utm_medium=member_android&rcm=ACoAAC0dGysBf882chPsnK9ZTPfxC0tzy0fT4qE]
-
-### ➡️ Next Steps
-- Course 2: Playbooks and SIEM
-- TryHackMe: SOC Level 1 Path
-- LetsDefend: SOC Analyst Learning Path
+**Lab Environment:** TryHackMe + LetsDefend + Termux (Linux)
 
 ---
-#BlueTeam #SOCAnalyst #CyberSecurity #SIEM #Linux #TryHackMe #LetsDefend #GoogleCybersecurity #Termux
+
+### 📌 Executive Summary
+
+Hands-on lab focused on **Security Operations Center Level 1 (SOC L1)** workflows. This project simulates a real alert triage, investigation, and response cycle from a SIEM alert to containment recommendation.
+
+**Main Goal:** Demonstrate practical skills in alert triage, IOC enrichment (WHOIS/DNS), and incident documentation following the NIST framework.
+
+---
+
+### 🚨 SOC L1 Case: SOC001 - Suspicious Domain / Potential Phishing
+
+**Alert ID:** SOC001
+**Severity:** High
+**Category:** Phishing / Typosquatting
+**MITRE ATT&CK:** T1566.002 - Phishing: Spearphishing Link
+
+#### 1. Initial Triage
+- Received alert from SIEM: `Suspicious domain detected`
+- Collected IOC: suspicious domain mimicking legitimate brand
+- Prioritized based on severity and potential user impact
+
+#### 2. Investigation & Enrichment (100% Termux)
+
+**Commands executed on Termux:**
+```bash
+whois suspicious-domain.com
+dig suspicious-domain.com
+nslookup suspicious-domain.com
