@@ -40,9 +40,15 @@ Hands-on lab focused on Security Operations Center Level 1 (SOC L1) workflows. T
 All labs executed on Motorola Edge 70 Fusion + Termux, demonstrating adaptability and resourcefulness in low-resource scenarios - a critical skill for SOC analysts operating in constrained environments.
 
 ### 📸 Evidence
-- `whois-termux.png` - WHOIS lookup via Termux
-- `dns-investigation.png` - dig/nslookup results
-- `letsdefend-soc001.png` - Alert triage in LetsDefend
+
+#### 1. Investigação WHOIS no Termux
+![Investigação WHOIS no Termux](./images/whois-termux.png)
+
+#### 2. Investigação DNS
+![dig e nslookup results](./images/dns-investigation.png)
+
+#### 3. Triagem no LetsDefend
+![Alert triage in LetsDefend](./images/letsdefend-soc001.png)
 
 ### 🔗 Links
 - Certificate: [Google Cybersecurity - Course 1](https://lnkd.in/d3-93XbR)
